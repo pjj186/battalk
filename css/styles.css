@@ -32,16 +32,30 @@ body {
     color: #2e363e;
 }
 
+#bottom-space {
+    width: 100px;
+    height: 100px;
+    visibility: hidden;
+}
+
+#chats-body {
+    height: 100%;
+    overflow-y: auto;
+}
+
 #friends-body {
-    height: 160vh;
+    height: 100%;
+    overflow-y: auto;
 }
 
 #find-body {
-    height: 150vh;
+    height: 100%;
+    overflow-y: auto;
 }
 
 #more-body {
-    height: 120vh;
+    height: 100%;
+    overflow-y: auto;
 }
 
 .main-screen {
