@@ -1,0 +1,156 @@
+<!-- chats.html 은 모두 컴포넌트로 이루어졌기때문에 screens에 따로 css 파일이 없다! -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chats - BAT TALK</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>GOTHAM</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>22:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-full"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">Chats</h1>
+        <div class="screen-header__icons">
+            <span>
+                <i class="fas fa-search fa-lg"></i>
+            </span>
+            <span>
+                <i class="far fa-comment-dots fa-lg"></i>
+            </span>
+            <span>
+                <i class="fas fa-music fa-lg"></i>
+            </span>
+            <span>
+                <span class="screen-header__icons--cog"></span>
+                <a href="settings.html"><i class="fas fa-cog fa-lg"></i></a> 
+            </span>
+        </div>
+    </header>
+
+    <main class="main-screen">
+
+        <a href="chat4.html">
+            <div class="user-component chat_4">
+                <div class="user-component__column">
+                    <img src="images/robin.jpg" 
+                    class="user-component__avatar" />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">ROBIN</h4>
+                        <h6 class="user-component__subtitle">Please read it quickly!</h6>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">21:09</span>
+                    <div class="badge--move badge-margin">5</div>
+                </div>
+            </div>
+        </a>
+
+        <a href="chat1.html">
+        <div class="user-component chat_1">
+            <div class="user-component__column">
+                <img src="images/joker.jpg" 
+                class="user-component__avatar" />
+                <div class="user-component__text">
+                    <h4 class="user-component__title">JOKER</h4>
+                    <h6 class="user-component__subtitle">HaHaHaHaHaHaHa..</h6>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <span class="user-component__time">20:27</span>
+                <div class="badge badge-margin">1</div>
+            </div>
+        </div>
+        </a>
+
+        <a href="chat2.html">
+            <div class="user-component chat_2">
+                <div class="user-component__column">
+                    <img src="images/catwomen.jpg" 
+                    class="user-component__avatar" />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">CAT WOMEN</h4>
+                        <h6 class="user-component__subtitle">OK.</h6>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">19:26</span>
+                </div>
+            </div>
+        </a>
+
+        <a href="chat3.html">
+            <div class="user-component chat_3">
+                <div class="user-component__column">
+                    <img src="images/hally.jpg" 
+                    class="user-component__avatar" />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">HALLY QUEEN</h4>
+                        <h6 class="user-component__subtitle">THANK YOU!! SEE YOU LATER BAT</h6>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">18:15</span>
+                </div>
+            </div>
+        </a>
+    </main>
+
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fas fa-user fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link--on" href="chats.html">
+                    <span class="nav__notification badge">1</span>
+                    <i class="fas fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <span class="nav__notification--two badge">
+                        <i class="fas fa-exclamation fa-xs"></i>
+                    </span>
+                    <i class="fas fa-search fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__dot"></span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="no-mobile">
+        <div class="cutebat">
+            <img src="images/cutebat.png">
+        </div>
+        <span>Please reduce the window width. Then you can enjoy the wonderful BAT TALK. 🤞 </span>
+    </div>
+
+    <div id="bg-chats">
+    </div>
+
+    <script src="https://kit.fontawesome.com/44ebe7b134.js" crossorigin="anonymous"></script>
+</body>
+</html>

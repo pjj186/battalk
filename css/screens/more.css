@@ -1,0 +1,94 @@
+.fa-comment-alt {
+    margin-right: 15px;
+}
+
+.more-screen .icon-row {
+    margin-top: 35px;
+}
+
+.more-screen__exclamtion {
+    display: inline-flex;
+    margin-left: 3px;
+}
+
+.more-screen__paybox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.more-screen__pay {
+    color: white;
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 2px 5px;
+}
+
+.more-screen__paytext {
+    color: white;
+    font-size: 20px;
+}
+
+.more-screen__paytext span {
+    cursor: pointer;
+}
+
+.vertical-line {
+    color: rgba(255, 255, 0, 0.8);
+}
+
+.more-suggestions {
+    margin-top: 50px;
+    border-top: var(--main-border);
+    padding-top: 40px;
+}
+
+.more-suggestions__title {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.more-suggestions__icons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 20px;
+    margin-left: 22px;
+}
+
+.more-suggestions__icon{
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more-suggestions__icon-image {
+    width: 60px;
+    height: 60px;
+    background-color: var(--yellow);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.more-suggestions__icon-image img {
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+}
+
+.more-suggestions__icon-image i {
+    font-size: 30px;
+    color:black;
+}
+
+.more-suggestions__icon-text{
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    white-space: nowrap;
+}

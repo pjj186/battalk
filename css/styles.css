@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import "reset.css";
+@import "variables.css";
+
+/*  Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
+@import "components/Anim.css";
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+
+
+@font-face {
+    src: url(../fonts/GothicJoker-gxxGP.ttf);
+    font-family: "joker";
+}
+
+body {
+    font-family: "joker";
+    color: #2e363e;
+}
+
+#friends-body {
+    height: 160vh;
+}
+
+#find-body {
+    height: 150vh;
+}
+
+#more-body {
+    height: 110vh;
+}
+
+.main-screen {
+    padding: 0px var(--horizontal-space);
+}
+
+#bg-index {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/index_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    z-index: -1;
+}
+
+#bg-settings,
+#bg-find,
+#bg-chats,
+#bg-more,
+#bg-friends {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/bg-all.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    z-index: -1;
+}
+
+#splash-screen {
+    background-image: url("../images/splash-batman.jpg");
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: hideSplashScreen 0.4s ease-in-out forwards;
+    /* forwards 를 주게되면, 애니메이션의 마지막속성이 애니메이션이 끝나고도 유지 */
+    animation-delay: 2s;
+}

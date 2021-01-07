@@ -1,0 +1,128 @@
+.screen-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--horizontal-space);
+    margin-bottom: 15px;
+    color: #808e9b;
+}
+
+.screen-header__title {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.screen-header__icons {
+    display: flex;
+    position: relative;
+}
+
+.screen-header__icons span{
+    margin-left: 25px;
+}
+
+.screen-header__icons--cog {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    position: absolute;
+    top: -7px;
+    right: -5.5px;
+}
+
+@keyframes rotateCog {
+    from {
+        transform: none;
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes rotateCog-color {
+    from {
+        color: #808e9b;
+    }
+
+    to {
+        color: #c8d6e5;
+    }
+}
+
+.screen-header__icons .fa-cog:hover {
+    animation: rotateCog 1s linear infinite,
+                rotateCog-color 0.7s linear forwards;
+}
+
+@keyframes musicAnim {
+    0%{
+        color: #808e9b;
+        transform: scale(1) rotateZ(30deg);
+    }
+
+    50%{
+        color: #c8d6e5;
+        transform: scale(1.2) rotateZ(-30deg);
+    }
+
+    100% {
+        color: #808e9b;
+        transform: scale(1) rotateZ(30deg);
+    }
+}
+
+@keyframes searchAnim {
+    0% {
+        color: #808e9b;
+        transform: scale(1);
+    }
+
+    50% {
+        color: #c8d6e5;
+        transform: scale(1.5);
+    }
+
+    100% {
+        color: #808e9b;
+        transform: scale(1);
+    }
+}
+
+@keyframes AddfriendsAnim {
+    0% {
+        color: #808e9b;
+        transform: none;
+    }
+
+    50% {
+        color: #fffa65;
+        transform: scale(1.5);
+    }
+
+    100% {
+        color: #808e9b;
+        transform: none;
+    }
+}
+
+.screen-header__icons .fa-search:hover {
+    will-change: transform;
+    animation: searchAnim 1s linear infinite;
+}
+
+.screen-header__icons .fa-user-plus:hover {
+    will-change: transform;
+    animation: AddfriendsAnim 1s linear infinite;
+}
+
+.screen-header__icons .fa-music:hover {
+    will-change: transform;
+    animation: musicAnim 0.5s linear infinite;
+}
+
+.screen-header__icons .fa-comment-dots:hover {
+    will-change: transform;
+    animation: searchAnim 1s linear infinite;
+}

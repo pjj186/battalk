@@ -1,0 +1,62 @@
+@import "components/Anim.css";
+
+.badge {
+    background-color: tomato;
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-weight: 600;
+}
+
+.badge--move {
+    background-color: tomato;
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-weight: 600;
+    animation: vibrate-1 0.3s linear infinite both;
+}
+
+.badge-margin {
+    margin-right: 8px;
+}
+
+.badge__exclamation{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: tomato;
+    background-color: white;
+    color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes bellRotate {
+    0% {
+        transform: none;
+    }
+
+    50% {
+        transform: rotateY(360deg);
+    }
+
+    100% {
+        transform: none;
+    }
+}
+
+.fa-bell {
+    animation: bellRotate 1s linear infinite;
+    color: red;
+}

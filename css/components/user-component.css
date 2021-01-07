@@ -1,0 +1,93 @@
+.user-component{
+    border-radius: 30px;
+    background-color: rgba(110, 106, 106, 0.4);
+    justify-content: space-between;
+    margin-bottom: 17px;
+
+}
+.user-component,
+.user-component__column:first-child {
+    display : flex;
+    align-items: center;
+}
+
+.user-component__avatar {
+    width:70px;
+    height: 70px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.user-component__title {
+    color: rgba(255, 255, 255, 0.863);
+    font-size: 25px;
+}
+
+.user-component__subtitle {
+    margin-top: 8px;
+    font-size: 20px;
+    color : rgba(255, 255, 255, 0.4);
+}
+
+.user-component__avatar--xl {
+    width: 80px;
+    height: 80px;
+}
+
+.user-component__avatar--sm{
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+}
+
+.user-component__avatar--villain {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.user-component__title--not-bold{
+    font-weight: 400;
+}
+
+.user-component__title--my-name {
+    font-size: 30px;
+    color: white;
+}
+
+
+.user-component__column:last-child {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 8px;
+}
+
+.user-component__time {
+    display: block;
+    margin-bottom: 7px;
+    margin-right: 8px;
+}
+
+.user-component__column--music {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    border-radius: 15px;
+    border: solid 2px ;
+    border-color: #32ff7e;
+    color: white;
+    margin-right: 13px;
+}
+
+.fa-play-circle {
+    color:#32ff7e;
+    margin-left: 4px;
+}
+
+.fa-play-circle:hover {
+    cursor: pointer;
+}
