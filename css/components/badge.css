@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     color:white;
-    font-weight: 600;
+    font-size: 20px;
 }
 
 .badge--move {
@@ -21,7 +21,6 @@
     justify-content: center;
     align-items: center;
     color:white;
-    font-weight: 600;
     animation: vibrate-1 0.3s linear infinite both;
 }
 
