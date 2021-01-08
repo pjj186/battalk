@@ -58,6 +58,42 @@
     justify-content: space-between;
 }
 
+.villain_image {
+    display: flex;
+    justify-content: center;
+    position: relative; 
+}
+
+.info_box {
+    position: absolute;
+    bottom: 10px;
+    color: black;
+    font-size: 25px;
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.438);
+    transition: background-color 0.3s linear ;
+}
+
+.info_box:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.info_kr,
+.info_en {
+    color: black;
+    transition: color 0.3s ease-in-out;
+}
+
+.info_kr:hover {
+    color: red;
+}
+
+.info_en:hover {
+    color: red;
+}
+
 .recommended-friends img {
     display: block;
     margin-top: 10px;

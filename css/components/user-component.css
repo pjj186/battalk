@@ -1,3 +1,5 @@
+@import "components/Anim.css";
+
 .user-component{
     border-radius: 30px;
     background-color: rgba(110, 106, 106, 0.4);
@@ -9,6 +11,10 @@
 .user-component__column:first-child {
     display : flex;
     align-items: center;
+}
+
+.user-component__up:hover {
+    animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .user-component__avatar {

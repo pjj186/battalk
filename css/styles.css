@@ -30,6 +30,7 @@
 body {
     font-family: "joker";
     color: #2e363e;
+    cursor: url("../cursor/too333.cur"), auto;
 }
 
 #bottom-space {
