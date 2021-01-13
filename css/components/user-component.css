@@ -1,7 +1,7 @@
 @import "components/Anim.css";
 
 .user-component{
-    border-radius: 30px;
+    border-radius: 15px;
     background-color: rgba(110, 106, 106, 0.4);
     justify-content: space-between;
     margin-bottom: 17px;
@@ -22,7 +22,7 @@
 .user-component__avatar {
     width:70px;
     height: 70px;
-    border-radius: 30px;
+    border-radius: 18px;
     margin-right: 20px;
 }
 
