@@ -197,6 +197,17 @@
     margin-left: 5px;
 }
 
+.open-post__playbtn {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+
 @keyframes heartBeat {
     0% {
         color: white;

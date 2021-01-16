@@ -89,6 +89,7 @@
     border-color: #32ff7e;
     color: white;
     margin-right: 13px;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .fa-play-circle {
@@ -98,4 +99,8 @@
 
 .fa-play-circle:hover {
     cursor: pointer;
+}
+
+.user-component__column--music:hover {
+    background-color: #32ff7d79;
 }

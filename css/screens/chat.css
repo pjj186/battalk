@@ -6,16 +6,49 @@
 }
 .chat_1{
     will-change: transform;
-    animation: slit-in-horizontal 0.9s ease-out both;
+    animation: slit-in-horizontal 0.45s ease-out both;
+    animation-delay: 0.45s;
 }
 .chat_2{
     will-change: transform;
-    animation: slit-in-horizontal 1.35s ease-out both;
+    animation: slit-in-horizontal 0.45s ease-out both;
+    animation-delay: 0.9s;
 
 }
 .chat_3{
     will-change: transform;
-    animation: slit-in-horizontal 1.8s ease-out both;
+    animation: slit-in-horizontal 0.45s ease-out both;
+    animation-delay: 1.35s;
+}
+
+.inchatbtn {
+    color: #fff7f7;
+    transition: text-shadow 0.3s ease-in-out;
+}
+
+.inchatbtn:hover {
+    text-shadow: 
+    .1vw 0vw   0vw #ced6e0, .2vw 0vw   0vw #ced6e0, .1vw 0vw   0vw #ced6e0,
+    .1vw 0vw  .1vw #ced6e0, .2vw 0vw  .1vw #ced6e0, .1vw 0vw  .1vw #ced6e0,
+    .1vw 0vw   1vw #ced6e0, .2vw 0vw   2vw #ced6e0, .1vw 0vw   2vw #ced6e0, 
+    .1vw 0vw   1vw #dfe4ea, .2vw 0vw   1vw #dfe4ea, .1vw 0vw   1vw #dfe4ea, 
+    .1vw 0vw   1vw #dfe4ea, .2vw 0vw  10vw #dfe4ea, .1vw 0vw  1vw #dfe4ea,
+    .1vw 0vw  1vw #dfe4ea, .2vw 0vw  10vw #dfe4ea, .1vw 0vw  1vw #dfe4ea;
+}
+
+.inchatbtn2 {
+    color: #fff7f7;
+    transition: text-shadow 0.3s ease-in-out;
+}
+
+.inchatbtn2:hover{
+    text-shadow: 
+    .1vw 0vw   0vw #ced6e0, .2vw 0vw   0vw #ced6e0, .1vw 0vw   0vw #ced6e0,
+    .1vw 0vw  .1vw #ced6e0, .2vw 0vw  .1vw #ced6e0, .1vw 0vw  .1vw #ced6e0,
+    .1vw 0vw   1vw #ced6e0, .2vw 0vw   2vw #ced6e0, .1vw 0vw   2vw #ced6e0, 
+    .1vw 0vw   1vw #dfe4ea, .2vw 0vw   1vw #dfe4ea, .1vw 0vw   1vw #dfe4ea, 
+    .1vw 0vw   1vw #dfe4ea, .2vw 0vw  10vw #dfe4ea, .1vw 0vw  1vw #dfe4ea,
+    .1vw 0vw  1vw #dfe4ea, .2vw 0vw  10vw #dfe4ea, .1vw 0vw  1vw #dfe4ea;
 }
 
 #bg-chat {
@@ -33,6 +66,7 @@
 
 #chat-screen {
     height: 100vh;
+    overflow-x: hidden;
 }
 
 #chat-screen .alt-header,
@@ -67,13 +101,108 @@
     }
 }
 
+@keyframes Messageyou {
+    from {
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+
+    to {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+@keyframes Messageme {
+    from {
+        transform: translateX(500px);
+        opacity: 0;
+    }
+
+    to {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+.message-you {
+    animation: Messageyou .8s ease-in-out forwards;
+}
+
+.message-you2{
+    animation: Messageyou .8s ease-in-out forwards;
+    animation-delay: 1s;
+}
+
+.message-you3{
+    animation: Messageyou .8s ease-in-out forwards;
+    animation-delay: 2s;
+}
+
+.message-you4{
+    animation: Messageyou .8s ease-in-out forwards;
+    animation-delay: 3s;
+}
+
+.message-you5{
+    animation: Messageyou .8s ease-in-out forwards;
+    animation-delay: 4s;
+}
+
+.message-you6{
+    animation: Messageyou .8s ease-in-out forwards;
+    animation-delay: 5s;
+}
+
+.message-you7{
+    animation: Messageyou .8s ease-in-out forwards;
+    animation-delay: 6s;
+}
+
+.message-you8{
+    animation: Messageyou .8s ease-in-out forwards;
+    animation-delay: 7s;
+}
+
+.message-me {
+    animation: Messageme .8s ease-in-out forwards;
+}
+
+.message-me2{
+    animation: Messageme .8s ease-in-out forwards;
+    animation-delay: 1s;
+}
+
+.message-me3{
+    animation: Messageme .8s ease-in-out forwards;
+    animation-delay: 2s;
+}
+
+.message-me4{
+    animation: Messageme .8s ease-in-out forwards;
+    animation-delay: 3s;
+}
+
+.message-me5{
+    animation: Messageme .8s ease-in-out forwards;
+    animation-delay: 4s;
+}
+
+.message-me6{
+    animation: Messagem .8s ease-in-out forwards;
+    animation-delay: 5s;
+}
+
+.message-me7{
+    animation: Messageme .8s ease-in-out forwards;
+    animation-delay: 6s;
+}
 
 .main-chat {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 120px;
-    animation: fadeIn .8s linear;
 }
 
 .chat__timestamp {
@@ -89,6 +218,7 @@
     width: 100%;
     display: flex;
     margin-bottom: 25px;
+    opacity: 0;
 }
 
 .message-row img {
@@ -188,6 +318,7 @@
 .reply__column:last-child 를 만족하는 i를 가르킨다.
 즉, reply의 마지막 컬럼의 i를 가르키는것.. button 안의 i는 가르키지않는다.
  */
+
 .reply__column:last-child > i,
 .reply__column:last-child button {
     position: absolute;
