@@ -282,8 +282,8 @@
 }
 
 .reply {
-    position: fixed;
-    bottom: 0;
+    /* position: fixed;
+    bottom: 0; */
     width: 100%;
     background-color: white;
     display: flex;
@@ -359,7 +359,6 @@
     transition: opacity .3s ease-in-out;
 }
 
-
 .reply:focus-within .reply__column:first-child,
 .reply:focus-within .fa-smile-beam,
 .reply:focus-within button {
@@ -373,4 +372,84 @@
 
 .reply:focus-within {
     transform: translateY(80px);
+}
+
+.box__reply {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.reply__keyboard {
+    height: 0vh;
+    visibility: hidden;
+    width: 100%;
+    transform: scaleY(1);
+    background-color: black;
+    transition: all 0.3s linear;
+    border-radius: 20px;
+}
+
+.box__reply:focus-within .reply__keyboard {
+    height: 200px;
+    visibility: visible;
+}
+
+.keyboard__row {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+
+.keyboard__key {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 30px;
+    background-color: #1f242b;
+    border-radius: 10px;
+    margin-bottom: 2px;
+    color:white;
+    border: 1px solid white;
+    box-shadow: 0 2px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.keyboard__key:hover {
+    transform: scale(1.2);
+}
+
+.keyboard__key--shift {
+    width: 60px;
+}
+
+.keyboard__key--backspace {
+    width: 45px;
+}
+
+.keyboard__key--space {
+    width: 200px;
+}
+
+.keyboard__key--enter {
+    width: 100px;
+}
+
+.keyboard__key--number {
+    font-size: 20px;
+}
+
+.fa-backspace {
+    font-size: 20px;
+}
+
+.fa-globe {
+    font-size: 20px;
+}
+
+.fa-microphone-alt {
+    font-size: 20px;
 }

@@ -280,7 +280,7 @@
 
 .magnifyBtn2 {
   will-change: transform;
-  transition: transform 250ms ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .magnifyBtn2:hover {
