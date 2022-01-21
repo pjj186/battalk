@@ -1,317 +1,310 @@
 @import "components/Anim.css";
 
-.chat_4{
-    will-change: transform;
-    animation: slit-in-horizontal 0.45s ease-out both;
+.chat_4 {
+  will-change: transform;
+  animation: slit-in-horizontal 0.45s ease-out both;
 }
-.chat_1{
-    will-change: transform;
-    animation: slit-in-horizontal 0.45s ease-out both;
-    animation-delay: 0.45s;
+.chat_1 {
+  will-change: transform;
+  animation: slit-in-horizontal 0.45s ease-out both;
+  animation-delay: 0.45s;
 }
-.chat_2{
-    will-change: transform;
-    animation: slit-in-horizontal 0.45s ease-out both;
-    animation-delay: 0.9s;
-
+.chat_2 {
+  will-change: transform;
+  animation: slit-in-horizontal 0.45s ease-out both;
+  animation-delay: 0.9s;
 }
-.chat_3{
-    will-change: transform;
-    animation: slit-in-horizontal 0.45s ease-out both;
-    animation-delay: 1.35s;
+.chat_3 {
+  will-change: transform;
+  animation: slit-in-horizontal 0.45s ease-out both;
+  animation-delay: 1.35s;
 }
 
 .inchatbtn {
-    color: #fff7f7;
-    transition: text-shadow 0.3s ease-in-out;
+  color: #fff7f7;
+  transition: text-shadow 0.3s ease-in-out;
 }
 
 .inchatbtn:hover {
-    text-shadow: 
-    .1vw 0vw   0vw #ced6e0, .2vw 0vw   0vw #ced6e0, .1vw 0vw   0vw #ced6e0,
-    .1vw 0vw  .1vw #ced6e0, .2vw 0vw  .1vw #ced6e0, .1vw 0vw  .1vw #ced6e0,
-    .1vw 0vw   1vw #ced6e0, .2vw 0vw   2vw #ced6e0, .1vw 0vw   2vw #ced6e0, 
-    .1vw 0vw   1vw #dfe4ea, .2vw 0vw   1vw #dfe4ea, .1vw 0vw   1vw #dfe4ea, 
-    .1vw 0vw   1vw #dfe4ea, .2vw 0vw  10vw #dfe4ea, .1vw 0vw  1vw #dfe4ea,
-    .1vw 0vw  1vw #dfe4ea, .2vw 0vw  10vw #dfe4ea, .1vw 0vw  1vw #dfe4ea;
+  text-shadow: 0.1vw 0vw 0vw #ced6e0, 0.2vw 0vw 0vw #ced6e0,
+    0.1vw 0vw 0vw #ced6e0, 0.1vw 0vw 0.1vw #ced6e0, 0.2vw 0vw 0.1vw #ced6e0,
+    0.1vw 0vw 0.1vw #ced6e0, 0.1vw 0vw 1vw #ced6e0, 0.2vw 0vw 2vw #ced6e0,
+    0.1vw 0vw 2vw #ced6e0, 0.1vw 0vw 1vw #dfe4ea, 0.2vw 0vw 1vw #dfe4ea,
+    0.1vw 0vw 1vw #dfe4ea, 0.1vw 0vw 1vw #dfe4ea, 0.2vw 0vw 10vw #dfe4ea,
+    0.1vw 0vw 1vw #dfe4ea, 0.1vw 0vw 1vw #dfe4ea, 0.2vw 0vw 10vw #dfe4ea,
+    0.1vw 0vw 1vw #dfe4ea;
 }
 
 .inchatbtn2 {
-    color: #fff7f7;
-    transition: text-shadow 0.3s ease-in-out;
+  color: #fff7f7;
+  transition: text-shadow 0.3s ease-in-out;
 }
 
-.inchatbtn2:hover{
-    text-shadow: 
-    .1vw 0vw   0vw #ced6e0, .2vw 0vw   0vw #ced6e0, .1vw 0vw   0vw #ced6e0,
-    .1vw 0vw  .1vw #ced6e0, .2vw 0vw  .1vw #ced6e0, .1vw 0vw  .1vw #ced6e0,
-    .1vw 0vw   1vw #ced6e0, .2vw 0vw   2vw #ced6e0, .1vw 0vw   2vw #ced6e0, 
-    .1vw 0vw   1vw #dfe4ea, .2vw 0vw   1vw #dfe4ea, .1vw 0vw   1vw #dfe4ea, 
-    .1vw 0vw   1vw #dfe4ea, .2vw 0vw  10vw #dfe4ea, .1vw 0vw  1vw #dfe4ea,
-    .1vw 0vw  1vw #dfe4ea, .2vw 0vw  10vw #dfe4ea, .1vw 0vw  1vw #dfe4ea;
+.inchatbtn2:hover {
+  text-shadow: 0.1vw 0vw 0vw #ced6e0, 0.2vw 0vw 0vw #ced6e0,
+    0.1vw 0vw 0vw #ced6e0, 0.1vw 0vw 0.1vw #ced6e0, 0.2vw 0vw 0.1vw #ced6e0,
+    0.1vw 0vw 0.1vw #ced6e0, 0.1vw 0vw 1vw #ced6e0, 0.2vw 0vw 2vw #ced6e0,
+    0.1vw 0vw 2vw #ced6e0, 0.1vw 0vw 1vw #dfe4ea, 0.2vw 0vw 1vw #dfe4ea,
+    0.1vw 0vw 1vw #dfe4ea, 0.1vw 0vw 1vw #dfe4ea, 0.2vw 0vw 10vw #dfe4ea,
+    0.1vw 0vw 1vw #dfe4ea, 0.1vw 0vw 1vw #dfe4ea, 0.2vw 0vw 10vw #dfe4ea,
+    0.1vw 0vw 1vw #dfe4ea;
 }
 
 #bg-chat {
-    z-index: -1;
-    top: 0;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-image: url("../../images/chatwallpaper.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  z-index: -1;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../images/chatwallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-
 #chat-screen {
-    height: 100vh;
-    overflow-x: hidden;
+  height: 100vh;
+  overflow-x: hidden;
 }
 
 #chat-screen .alt-header,
 #chat-screen .status-bar {
-    top: 0;
-    position:fixed;
-    width: 100%;
-    box-sizing: border-box;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 #chat-screen .status-bar {
-    z-index: 2;
+  z-index: 2;
 }
 
-
 #chat-screen .alt-header {
-    background-color: rgba(30, 39, 46, 0.5);
-    color: white;
-    top: 10px;
-    z-index: 1;
+  background-color: rgba(30, 39, 46, 0.5);
+  color: white;
+  top: 10px;
+  z-index: 1;
 }
 
 @keyframes fadeIn {
-    from {
-        transform: translateY(20px);
-        opacity: 0;
-    }
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
 
-    to {
-        transform: none;
-        opacity: 1;
-    }
+  to {
+    transform: none;
+    opacity: 1;
+  }
 }
 
 @keyframes Messageyou {
-    from {
-        transform: translateX(-500px);
-        opacity: 0;
-    }
+  from {
+    transform: translateX(-500px);
+    opacity: 0;
+  }
 
-    to {
-        transform: none;
-        opacity: 1;
-    }
+  to {
+    transform: none;
+    opacity: 1;
+  }
 }
 
 @keyframes Messageme {
-    from {
-        transform: translateX(500px);
-        opacity: 0;
-    }
+  from {
+    transform: translateX(500px);
+    opacity: 0;
+  }
 
-    to {
-        transform: none;
-        opacity: 1;
-    }
+  to {
+    transform: none;
+    opacity: 1;
+  }
 }
 
 .message-you {
-    animation: Messageyou .8s ease-in-out forwards;
+  animation: Messageyou 0.8s ease-in-out forwards;
 }
 
-.message-you2{
-    animation: Messageyou .8s ease-in-out forwards;
-    animation-delay: 1s;
+.message-you2 {
+  animation: Messageyou 0.8s ease-in-out forwards;
+  animation-delay: 1s;
 }
 
-.message-you3{
-    animation: Messageyou .8s ease-in-out forwards;
-    animation-delay: 2s;
+.message-you3 {
+  animation: Messageyou 0.8s ease-in-out forwards;
+  animation-delay: 2s;
 }
 
-.message-you4{
-    animation: Messageyou .8s ease-in-out forwards;
-    animation-delay: 3s;
+.message-you4 {
+  animation: Messageyou 0.8s ease-in-out forwards;
+  animation-delay: 3s;
 }
 
-.message-you5{
-    animation: Messageyou .8s ease-in-out forwards;
-    animation-delay: 4s;
+.message-you5 {
+  animation: Messageyou 0.8s ease-in-out forwards;
+  animation-delay: 4s;
 }
 
-.message-you6{
-    animation: Messageyou .8s ease-in-out forwards;
-    animation-delay: 5s;
+.message-you6 {
+  animation: Messageyou 0.8s ease-in-out forwards;
+  animation-delay: 5s;
 }
 
-.message-you7{
-    animation: Messageyou .8s ease-in-out forwards;
-    animation-delay: 6s;
+.message-you7 {
+  animation: Messageyou 0.8s ease-in-out forwards;
+  animation-delay: 6s;
 }
 
-.message-you8{
-    animation: Messageyou .8s ease-in-out forwards;
-    animation-delay: 7s;
+.message-you8 {
+  animation: Messageyou 0.8s ease-in-out forwards;
+  animation-delay: 7s;
 }
 
 .message-me {
-    animation: Messageme .8s ease-in-out forwards;
+  animation: Messageme 0.8s ease-in-out forwards;
 }
 
-.message-me2{
-    animation: Messageme .8s ease-in-out forwards;
-    animation-delay: 1s;
+.message-me2 {
+  animation: Messageme 0.8s ease-in-out forwards;
+  animation-delay: 1s;
 }
 
-.message-me3{
-    animation: Messageme .8s ease-in-out forwards;
-    animation-delay: 2s;
+.message-me3 {
+  animation: Messageme 0.8s ease-in-out forwards;
+  animation-delay: 2s;
 }
 
-.message-me4{
-    animation: Messageme .8s ease-in-out forwards;
-    animation-delay: 3s;
+.message-me4 {
+  animation: Messageme 0.8s ease-in-out forwards;
+  animation-delay: 3s;
 }
 
-.message-me5{
-    animation: Messageme .8s ease-in-out forwards;
-    animation-delay: 4s;
+.message-me5 {
+  animation: Messageme 0.8s ease-in-out forwards;
+  animation-delay: 4s;
 }
 
-.message-me6{
-    animation: Messagem .8s ease-in-out forwards;
-    animation-delay: 5s;
+.message-me6 {
+  animation: Messagem 0.8s ease-in-out forwards;
+  animation-delay: 5s;
 }
 
-.message-me7{
-    animation: Messageme .8s ease-in-out forwards;
-    animation-delay: 6s;
+.message-me7 {
+  animation: Messageme 0.8s ease-in-out forwards;
+  animation-delay: 6s;
 }
 
 .main-chat {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
 }
 
 .chat__timestamp {
-    color:white;
-    background-color:#2f3542;
-    font-size: 22px;
-    padding: 15px;
-    border-radius: 25px;
-    margin-bottom: 25px;
+  color: white;
+  background-color: #2f3542;
+  font-size: 22px;
+  padding: 15px;
+  border-radius: 25px;
+  margin-bottom: 25px;
 }
 
 .message-row {
-    width: 100%;
-    display: flex;
-    margin-bottom: 25px;
-    opacity: 0;
+  width: 100%;
+  display: flex;
+  margin-bottom: 25px;
+  opacity: 0;
 }
 
 .message-row img {
-    width: 50px;
-    height: 50px;
-    border-radius: 15px;
-    margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  margin-right: 10px;
 }
 
 .message__author {
-    margin-bottom: 5px;
-    display: block;
+  margin-bottom: 5px;
+  display: block;
 }
 
 .message__info {
-    position: relative;
-    display: flex;
-    align-items: flex-end;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
 }
-
 
 .message__bubble {
-    font-size: 20px;
-    background-color: white;
-    padding: 10px;
-    border-radius: 15px;
-    border-top-left-radius: 0px;
-    margin-right: 5px;
+  font-size: 20px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  margin-right: 5px;
 }
-
 
 .message__author,
 .message__time {
-    color: white;
-    font-size: 20px;
+  color: white;
+  font-size: 20px;
 }
 
 .message-row--own {
-    justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .message-row--own .message__bubble {
-    background-color: var(--yellow);
-    border-top-left-radius: 15px;
-    border-top-right-radius: 0px;
-    margin-right: 0px;
-    margin-left: 5px;
+  background-color: var(--yellow);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 0px;
+  margin-right: 0px;
+  margin-left: 5px;
 }
 
-
 .message-row--own .message__info {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .message__noread {
-    position: absolute;
-    top: 0;
-    right: 0px;
-    color: var(--yellow);
-    font-size: 20px;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  color: var(--yellow);
+  font-size: 20px;
 }
 
 .reply {
-    /* position: fixed;
+  /* position: fixed;
     bottom: 0; */
-    width: 100%;
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 5px 25px;
-    box-sizing: border-box;
-    align-items: center;
-    transition: transform .3s ease-in-out;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 25px;
+  box-sizing: border-box;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
 }
 
 .reply .reply__column:first-child {
-    /* column은 width를 가지고 있지 않았기때문에  width 값을 정해준 후, input의 width값 설정 가능*/
-    width: 10%;
+  /* column은 width를 가지고 있지 않았기때문에  width 값을 정해준 후, input의 width값 설정 가능*/
+  width: 10%;
 }
 
 .reply .reply__column:last-child {
-    width: 90%;
-    position: relative;
+  width: 90%;
+  position: relative;
 }
 .reply input {
-    height: 30px;
-    padding-left: 10px;
-    width: 100%;
-    border:var(--main-border);
-    border-radius: 20px;
-    transition: all .3s ease-in-out;
+  height: 30px;
+  padding-left: 10px;
+  width: 100%;
+  border: var(--main-border);
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
 }
-
 
 /* 자식결합자 >
 .reply__column:last-child > i 는
@@ -321,135 +314,137 @@
 
 .reply__column:last-child > i,
 .reply__column:last-child button {
-    position: absolute;
-    right: -11px;
-    top: 2px;
+  position: absolute;
+  right: -11px;
+  top: 2px;
 }
 
 .reply__column:last-child > i {
-   right: 40px;
-   top: 10px; 
+  right: 40px;
+  top: 10px;
 }
 
 .reply i {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .reply__column button {
-    background-color: var(--yellow);
-    border: none;
-    width:30px;
-    height: 30px;
-    border-radius: 50%;
+  background-color: var(--yellow);
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
 
-.reply__column button i{
-    opacity: 1;
+.reply__column button i {
+  opacity: 1;
 }
 
 .reply__column button:focus,
 .reply__column button:active {
-    outline: none;
+  outline: none;
 }
-
 
 .reply .reply__column:first-child,
 .reply .fa-smile-beam,
 .reply button {
-    transition: opacity .3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .reply:focus-within .reply__column:first-child,
 .reply:focus-within .fa-smile-beam,
 .reply:focus-within button {
-    opacity: 0;
+  opacity: 0;
 }
 
 .reply input:focus {
-    width: 90vw;
-    transform: translateX(-13%) translateY(-80px);
+  width: 90vw;
+  /* 입력창 눌렀을 때 input 위치 */
+  transform: translateX(-13%) translateY(-80px);
 }
 
 .reply:focus-within {
-    transform: translateY(80px);
+  /* 입력창 감싸고있는 흰 박스 위치 (아래로 내려감) */
+  transform: translateY(80px);
 }
 
 .box__reply {
-    width: 100%;
-    position: fixed;
-    bottom: 0;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
 }
 
 .reply__keyboard {
-    height: 0vh;
-    visibility: hidden;
-    width: 100%;
-    transform: scaleY(1);
-    background-color: black;
-    transition: all 0.3s linear;
-    border-radius: 20px;
+  /* 입력창 누르기 전까지는 키보드 숨김, 키보드 박스 높이 0*/
+  height: 0vh;
+  visibility: hidden;
+  width: 100%;
+  transform: scaleY(1);
+  background-color: black;
+  transition: all 0.3s linear;
+  border-radius: 20px;
 }
 
 .box__reply:focus-within .reply__keyboard {
-    height: 200px;
-    visibility: visible;
+  /* box__reply가 포커스 됬을때, 키보드 박스 높이 200px 눈에 보이게됌! */
+  height: 200px;
+  visibility: visible;
 }
 
 .keyboard__row {
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
 }
 
-
 .keyboard__key {
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 35px;
-    width: 30px;
-    background-color: #1f242b;
-    border-radius: 10px;
-    margin-bottom: 2px;
-    color:white;
-    border: 1px solid white;
-    box-shadow: 0 2px;
-    transition: transform 0.2s ease-in-out;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 30px;
+  background-color: #1f242b;
+  border-radius: 10px;
+  margin-bottom: 2px;
+  color: white;
+  border: 1px solid white;
+  box-shadow: 0 2px;
+  transition: transform 0.2s ease-in-out;
 }
 
 .keyboard__key:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .keyboard__key--shift {
-    width: 60px;
+  width: 60px;
 }
 
 .keyboard__key--backspace {
-    width: 45px;
+  width: 45px;
 }
 
 .keyboard__key--space {
-    width: 200px;
+  width: 200px;
 }
 
 .keyboard__key--enter {
-    width: 100px;
+  width: 100px;
 }
 
 .keyboard__key--number {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .fa-backspace {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .fa-globe {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .fa-microphone-alt {
-    font-size: 20px;
+  font-size: 20px;
 }
